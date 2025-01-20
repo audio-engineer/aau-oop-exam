@@ -1,6 +1,5 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0" is_locked="true">
-    <option name="myName" value="Project Default" />
     <inspection_tool class="AbsoluteAlignmentInUserInterface" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="AbstractBeanReferencesInspection" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="AbstractClassExtendsConcreteClass" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -316,7 +315,7 @@
     <inspection_tool class="ClassWithTooManyTransitiveDependents" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="limit" value="35" />
     </inspection_tool>
-    <inspection_tool class="ClassWithoutConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ClassWithoutConstructor" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ClassWithoutLogger" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="loggerNamesString" value="java.util.logging.Logger,org.slf4j.Logger,org.apache.commons.logging.Log,org.apache.log4j.Logger,org.apache.logging.log4j.Logger" />
       <option name="ignoreSuperLoggers" value="false" />
@@ -1873,7 +1872,7 @@
       <option name="limit" value="50" />
     </inspection_tool>
     <inspection_tool class="ParameterCanBeLocal" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="ParameterHidingMemberVariable" enabled="true" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="ParameterHidingMemberVariable" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="m_ignoreInvisibleFields" value="true" />
       <option name="m_ignoreStaticMethodParametersHidingInstanceFields" value="true" />
       <option name="m_ignoreForConstructors" value="false" />
@@ -2810,7 +2809,7 @@
     </inspection_tool>
     <inspection_tool class="UtilityClassCanBeEnum" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="UtilityClassWithPublicConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="true" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="UtilityClassWithoutPrivateConstructor" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="ignorableAnnotations">
         <value />
       </option>
